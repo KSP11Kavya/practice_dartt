@@ -21,16 +21,16 @@ void main(){
   //Assign
   //= symbol is  assign
   //in this right hand signed value added to left hand side
-  a= 5;
+  a= 5;// initalization
   print ( a);
   a = 7;
   print(a);
+  //inline declaration
+
+String name = "Raman";
 
 
-
-
-
-
+name = "Ramjun";
 
 
 
