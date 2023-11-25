@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 void main(){
 
@@ -22,9 +23,18 @@ void main(){
   //= symbol is  assign
   //in this right hand signed value added to left hand side
   a= 5;// initalization
-  print ( a);
+  BigInt longValue;
+  longValue = BigInt.parse('5586498467495556366711');
+
+  num percentage = 99.65;
+  bool isLogin = false;
+
+  isLogin = true;
+  //in decimal value it must num, double.
+  print ( longValue);
+
   a = 7;
-  print(a);
+  // print(a);
   //inline declaration
 
 String name = "Raman";
