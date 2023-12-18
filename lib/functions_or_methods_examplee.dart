@@ -6,6 +6,7 @@
 void main (){
 
   findPerimeter();
+
 }
 void findPerimeter() {
   int length = 4;
