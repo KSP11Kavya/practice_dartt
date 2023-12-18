@@ -26,9 +26,7 @@ void main(){
 //     //odd no.
 //     if( i % 2 == 0){
 //       continue;
-//       //Continue keyword means that when stmt
-//       // executed then skip all the code right after continue is we
-//       // have the print stmt so simplyskip it and continue with the loop
+
 //     }
 //     print(i);
 //   }
