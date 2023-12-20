@@ -12,7 +12,7 @@ void main(){
     int result = 12 ~/ 0;
     // int result = 12~/4;
     print("The result is $result");
-  } on IntegerDivisionByZeroException{
+  } on UnsupportedError{
 print("Cannot divide by zero");
   }
   print(" ");   print("CASE 2");
