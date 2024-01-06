@@ -21,4 +21,4 @@ class Human {
   //class is a keyword
   //Human is class what i create
   Human();
-}
+} 

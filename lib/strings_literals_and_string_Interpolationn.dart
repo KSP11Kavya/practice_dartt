@@ -4,7 +4,6 @@ void main() {
   int x = 2;
   "John";
   4.5;
-
   //two string value or 4.5 and true
   // boolean value all of these are literal in dart not only in dart
   // in every oop lang
@@ -29,10 +28,11 @@ void main() {
   //String s5 = 'This i going to be very long String. '
   //       'This i going to be very long String';
   //.......................................................................
+
+
   // String Interpolation : Use ["My name is $name"] instead of ["My name is " + name]
   String name = "Kevin";
-
-//using + sign in very bad impression like
+  //using + sign in very bad impression like
   //  String name = "Kevin";
   //   String message = "My name is "+ name;
   //so String Interpolation in a picture
@@ -40,7 +40,6 @@ void main() {
   // String name = "Kevin";
   //   String message = "My name is $name";
   //or
-
   //  String name = "Kevin";
   // print("my name is $name");
   print("my name is $name");
