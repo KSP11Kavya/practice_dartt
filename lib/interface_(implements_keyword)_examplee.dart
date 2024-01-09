@@ -24,13 +24,13 @@ class AnotherClass{
 }
 //Here Remote acts as Interface
 class Television implements Remote, AnotherClass{
-  //Because of implements u can use more than one class but if u use extend u can ponly use one class
+  //Because of implements u can use more than one class but if u use extend u can only use one class
 
- @override
+
   void volumeUp() {
    print("____Volume Up in Television______");
   }
-  @override
+
   void volumeDown() {
     print("____Volume Down in Television______");
   }
