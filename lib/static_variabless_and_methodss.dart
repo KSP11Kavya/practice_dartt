@@ -19,9 +19,7 @@ void main() {
 class Circle {
 static const double pi = 3.14;
 static int maxRadius = 5;
-
 String ? color;
-
 static void calculateArea() {
   print("Some code to calculate area of circle");
   // myNormalFunction();  //Not allowed to call instance function
