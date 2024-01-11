@@ -10,7 +10,7 @@ void main() {
   numbersList [4] = 12;
 
   numbersList[0] = 99;  //Update operation
-  numbersList[1] = null; //Delete operation
+  // numbersList[1] = null; //Delete operation
 
   print(numbersList[0]);
 
